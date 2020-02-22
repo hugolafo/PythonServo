@@ -17,7 +17,8 @@ max_pulse = 0.0024      # Library default = 2/1000
 # Initial servo position
 pos = 0
 test = 0
- 
+
+#Pin 11 is GPIO 17
 servo = Servo(17, pos, min_pulse, max_pulse, 20/1000, None)
  
 while True:
